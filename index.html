@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Orbitron&family=Passion+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ba3ff85aee.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="cn">
+            <div class="circle"id="circle">
+                <div id=""class="disp"><p id="cnt">0</p></div>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="btn">
+                <button onclick="add()"id="add"><i class="fa-regular fa-circle-up fa-2xl" style="color: #000000;"></i></button>
+                <button onclick="clr()" id="clr"><i class="fa-solid fa-eraser fa-2xl" style="color: #000000;"></i></button>
+                <button onclick="dec()"id="dec"><i class="fa-regular fa-circle-down fa-2xl" style="color: #000000;"></i></button>
+            </div>
+        </div>
+        <div class="color">
+            <h3>CHANGE SCREEN COLOR</h3><br>
+            <div class="clrbtn">
+                <input type="color" name="" id="clrslct">
+                <button id="done"onclick="clrchange()">CHANGE</button><br>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
